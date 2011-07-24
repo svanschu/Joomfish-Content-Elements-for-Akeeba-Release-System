@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<joomfish type="contentelement">
+    <name>ARS Releases</name>
+    <author>S. Schultschik</author>
+    <version>1.0</version>
+    <description>Definition for Akeeba Release System Releases</description>
+    <reference type="ars_releases">
+        <table name="ars_releases">
+            <field type="referenceid" name="id" translate="0">ID</field>
+            <field type="titletext" name="version" translate="1">Version</field>
+            <field type="text" name="alias" translate="1">Alias</field>
+            <field type="htmltext" name="description" translate="1">Description</field>
+            <field type="htmltext" name="notes" translate="1">Release notes</field>
+        </table>
+    </reference>
+</joomfish>
